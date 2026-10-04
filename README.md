@@ -37,6 +37,10 @@ python scripts/ingest.py     # build the knowledge base (run once, and after PDF
 streamlit run app.py         # the app only queries the persistent vector store
 ```
 
+## UI Preview
+
+![Recipe Assistant UI](Screenshot%202026-10-04%20151943.png)
+
 `scripts/ingest.py` discovers every `*.pdf` in `data/pdfs/` (no file names are hard-coded),
 never modifies the PDFs, and prints a per-PDF report including anything it could not process.
 It writes:
