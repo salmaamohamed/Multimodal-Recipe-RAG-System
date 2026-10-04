@@ -1,0 +1,11 @@
+pymupdf>=1.24
+chromadb>=1.0
+sentence-transformers>=3.0
+transformers>=4.40
+torch>=2.2
+pillow>=10.0
+streamlit>=1.50
+openai>=1.40
+python-dotenv>=1.0
+# optional: OCR fallback for scanned pages (also needs the Tesseract binary)
+pytesseract>=0.3.10
